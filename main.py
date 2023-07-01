@@ -163,8 +163,8 @@ def handle_messages_get_response(message, apikey, message_history, have_chat_con
 
 
 def get_response_stream_generate_from_ChatGPT_API(message_context, apikey, message_history,
-                                                  model="gpt-3.5-turbo", temperature=0.9, presence_penalty=0,
-                                                  max_tokens=2000):
+                                                  model="gpt-3.5-turbo-16k-0613", temperature=0.9, presence_penalty=0,
+                                                  max_tokens=16000):
     """
     从ChatGPT API获取回复
     :param apikey:
